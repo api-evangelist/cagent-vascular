@@ -1,17 +1,33 @@
 aid: cagent-vascular
 name: Cagent Vascular
-description: 'Cagent Vascular is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Cagent Vascular is a privately held endovascular medical device company
+  based in Wayne, Pennsylvania, that develops and commercializes Serration Remodeling
+  Therapy (SRT). Its flagship product, the Serranator PTA Serration Balloon Catheter,
+  embeds stainless-steel serrated strips into a semi-compliant angioplasty balloon
+  to create linear, interrupted micro-fissures along the artery wall, producing controlled
+  lumen expansion at lower pressures when treating peripheral artery disease (PAD)
+  and chronic limb-threatening ischemia (CLTI). The Serranator is FDA 510(k) cleared
+  and CE marked, and the portfolio has expanded to include Serranator SL-PRO and the
+  Serranator SONIC intravascular lithotripsy (IVL) system. Cagent Vascular is a device
+  manufacturer rather than a software or platform company: it publishes clinical data,
+  case studies, webinars and reimbursement material on its website, but no public developer
+  program, API, or machine-readable interface.'
 url: https://raw.githubusercontent.com/api-evangelist/cagent-vascular/refs/heads/main/apis.yml
+image: http://static1.squarespace.com/static/698f6db578da291d277a114a/t/69d341f3ef6422769dae3be2/1775452659672/CV-sharing.png?format=1500w
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-08'
 modified: '2026-08-08'
 tags:
 - Company
+- Medical Devices
+- Healthcare
+- Vascular
+- Peripheral Artery Disease
+- Endovascular
+- Angioplasty
+- MedTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +35,51 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cagent-vascular-domain-security.yml
 - type: Website
+  url: https://cagentvascular.com/
+- type: About
+  url: https://cagentvascular.com/about-us
+- type: Blog
+  url: https://cagentvascular.com/news
+- type: BlogRSS
+  url: https://cagentvascular.com/news?format=rss
+- type: Support
+  url: https://cagentvascular.com/contact-us
+- type: TermsOfService
+  url: https://cagentvascular.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://cagentvascular.com/privacy-policy
+- type: FAQ
+  url: https://cagentvascular.com/faqs
+- type: Careers
+  url: https://cagentvascular.com/careers
+- type: LLMsTxt
+  url: llms/cagent-vascular-llms.txt
+- type: SecondaryMarket
   url: https://forgeglobal.com/cagent-vascular_stock/
+x-enrichment:
+  date: '2026-08-08'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: Cagent Vascular manufactures the Serranator peripheral angioplasty balloon
+    catheter; its 124-URL Squarespace sitemap covers clinical studies, webinars and
+    reimbursement material with no developer, API, or integration page, and no api./developer./docs./portal.
+    subdomain resolves in DNS.
+  evidence:
+  - url: https://cagentvascular.com/sitemap.xml
+    status: 200
+  - url: https://cagentvascular.com/openapi.json
+    status: 404
+  - url: https://cagentvascular.com/.well-known/agent-card.json
+    status: 404
+  - url: https://cagentvascular.com/.well-known/security.txt
+    status: 404
+  - url: https://cagentvascular.com/llms.txt
+    status: 404
+  checked: '2026-08-08'

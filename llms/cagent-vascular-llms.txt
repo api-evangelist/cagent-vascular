@@ -1,0 +1,32 @@
+# Cagent Vascular
+
+> Cagent Vascular is an endovascular medical device company in Wayne, Pennsylvania that develops Serration Remodeling Therapy (SRT). Its Serranator PTA Serration Balloon Catheter embeds stainless-steel serrated strips in a semi-compliant angioplasty balloon to create controlled micro-fissures in the artery wall, treating peripheral artery disease (PAD) and chronic limb-threatening ischemia (CLTI). As of 2026-08-08 the company publishes no public API, developer portal, or machine-readable interface.
+
+## About
+
+- [Company website](https://cagentvascular.com/): Product, technology, and clinical overview.
+- [About Cagent Vascular](https://cagentvascular.com/about-us): Company mission and team.
+- [Technology](https://cagentvascular.com/technology): Serration Remodeling Therapy mechanism of action.
+- [Serranator](https://cagentvascular.com/serranator): The PTA serration balloon catheter product page.
+- [Serranator SL-PRO](https://cagentvascular.com/serranator-sl-pro): Long-length product for CLTI and pedal disease.
+- [Clinical data](https://cagentvascular.com/clinical-data): PRELUDE BTK/ATK, RECOIL, PEDAL, and Serranator vs POBA studies.
+- [Patents](https://cagentvascular.com/patents): Published patent listing.
+- [News](https://cagentvascular.com/news): Company announcements ([RSS](https://cagentvascular.com/news?format=rss)).
+- [Contact](https://cagentvascular.com/contact-us): Company contact form and phone.
+
+## APIs
+
+None published. Probed 2026-08-08: no OpenAPI, Swagger, GraphQL, AsyncAPI, MCP server, or A2A agent card
+found on cagentvascular.com, and no api./developer./docs./portal. subdomain resolves. This is a medical
+device manufacturer, not a software or platform company.
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/cagent-vascular/refs/heads/main/apis.yml): APIs.json 0.20 profile of this company.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/cagent-vascular/refs/heads/main/security/cagent-vascular-domain-security.yml): Probed TLS, HSTS, DNSSEC, CAA, SPF, and DMARC posture.
+
+## Provenance
+
+- generated: 2026-08-08
+- method: generated
+- source: apis.yml + repo artifacts + probes of https://cagentvascular.com/
