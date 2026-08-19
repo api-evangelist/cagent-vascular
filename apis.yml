@@ -16,7 +16,7 @@ url: https://raw.githubusercontent.com/api-evangelist/cagent-vascular/refs/heads
 image: http://static1.squarespace.com/static/698f6db578da291d277a114a/t/69d341f3ef6422769dae3be2/1775452659672/CV-sharing.png?format=1500w
 x-type: company
 x-source: harvest:secondary-market
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-08-08'
 modified: '2026-08-08'
 tags:
