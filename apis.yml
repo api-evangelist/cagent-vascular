@@ -24,6 +24,18 @@ deliveryModel:
   - pricing
   generated: '2026-08-28'
   method: derived
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: http://static1.squarespace.com/static/698f6db578da291d277a114a/t/69d341f3ef6422769dae3be2/1775452659672/CV-sharing.png?format=1500w
 x-type: company
 x-source: harvest:secondary-market
